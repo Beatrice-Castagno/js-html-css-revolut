@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* header */
+
+.list {
+  display: flex;
+}
+
+.list:first-child li {
+  position: relative;
+  list-style: none;
+  padding: 10px 30px;
+}
+.menu-drop {
+  position: absolute;
+  display: none;
+  box-shadow: 1px 1px 10px #dcdcdc;
+  border-radius: 5px;
+}
+
+.menu-drop a {
+padding: 0;
+font-weight: normal;
+font-size: 18px;
+}
+
+a {
+font-size: 20px;
+font-weight: bold;
+padding: 20px 30px;
+display: inline-block;
+text-decoration: none;
+outline: none;
+}
+
+a:link, a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+.active {
+  display: block;
+}
